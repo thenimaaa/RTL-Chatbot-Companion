@@ -7,3 +7,12 @@ A browser extension designed to enhance chatbot interactions in Persian, Arabic,
 2. Visit the following link: [RTL Chatbot Companion](https://addons.mozilla.org/en-US/firefox/addon/rtl-chatbot-companion/).
 3. Click the "Add to Firefox" button.
 4. Confirm the installation by clicking "Add" in the pop-up dialog.
+
+# Install the Add-on in Firefox Manually:
+
+1. Download RTL.Chatbot.Companion_1.0.firefox.signed.xpi file to your local machine.
+2. Open Firefox.
+3. Click on the menu button (three horizontal lines) in the top right corner.
+4. Select "Add-ons and themes."
+5. Click on the gear icon (⚙️) and choose "Install Add-on From File."
+6. Navigate to RTL.Chatbot.Companion_1.0.firefox.signed.xpi file and select it to install.
