@@ -6,7 +6,7 @@ A browser extension designed to enhance chatbot interactions in Persian, Arabic,
 
 <div align="center">
 
-# [لینک آموزش نصب فارسی](https://vertexdesign.ir/ابزارها/rtl-chatbot-companion/)
+# [آموزش نصب فارسی](https://vertexdesign.ir/ابزارها/rtl-chatbot-companion/)
 
 </div>
 
