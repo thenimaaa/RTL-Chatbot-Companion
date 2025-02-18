@@ -4,6 +4,10 @@ A browser extension designed to enhance chatbot interactions in Persian, Arabic,
 ![Image](https://github.com/user-attachments/assets/2db1d329-850b-4f53-8639-de3f37bc7022)
 
 
+<div align="center">
+# [لینک آموزش نصب فارسی](https://vertexdesign.ir/ابزارها/rtl-chatbot-companion/)
+</div>
+
 # Installing from Firefox Add-ons:
 
 1. Open Firefox:
