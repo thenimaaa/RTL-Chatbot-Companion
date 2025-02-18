@@ -1,1 +1,9 @@
-# RTL-Chatbot-Companion
+# RTL Chatbot Companion
+A browser extension designed to enhance chatbot interactions in Persian, Arabic, and other right-to-left (RTL) languages. This extension allows users to toggle text direction and applies a custom font for improved readability. This extension is compatible with DeepSeek, QwenLM, POE, Duck AI, TheB AI, and ChatGPT.
+
+# Installing from Firefox Add-ons:
+
+1. Open Firefox:
+2. Visit the following link: [RTL Chatbot Companion](https://addons.mozilla.org/en-US/firefox/addon/rtl-chatbot-companion/).
+3. Click the "Add to Firefox" button.
+4. Confirm the installation by clicking "Add" in the pop-up dialog.
