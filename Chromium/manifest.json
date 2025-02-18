@@ -1,0 +1,58 @@
+{
+  "manifest_version": 3,
+  "name": "RTL Chatbot Companion - Persian, Arabic",
+  "version": "1.0",
+  "description": "RTL Chatbot Companion is a browser extension for Persian, Arabic, and other right-to-left languages. It toggles text direction and applies a custom font for readability, compatible with DeepSeek, QwenLM, POE, Duck AI",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.chat.deepseek.com/*",
+    "*://*.poe.com/*",
+    "*://*.duckduckgo.com/*",
+    "*://*.chatbot.theb.ai/*",
+    "*://*.chat.qwenlm.ai/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.chat.deepseek.com/*",
+        "*://*.poe.com/*",
+        "*://*.duckduckgo.com/*",
+        "*://*.chatbot.theb.ai/*",
+        "*://*.chat.qwenlm.ai/*"
+      ],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "backgroundScript.js"
+  },
+  "action": {
+    "default_title": "Persian CSS RTL",
+    "default_icon": {
+      "16": "icons/icon2-16.png",
+      "48": "icons/icon2.png",
+      "128": "icons/icon2-128.png"
+    }
+  },
+  "icons": {
+      "16": "icons/icon2-16.png",
+      "48": "icons/icon2.png",
+      "128": "icons/icon2-128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["fonts/Estedad-Regular.woff2"],
+      "matches": [
+        "*://*.chat.deepseek.com/*",
+        "*://*.poe.com/*",
+        "*://*.duckduckgo.com/*",
+        "*://*.chatbot.theb.ai/*",
+        "*://*.chat.qwenlm.ai/*"
+      ]
+    }
+  ]
+}
