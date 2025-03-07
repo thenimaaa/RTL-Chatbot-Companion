@@ -1,5 +1,5 @@
 browser.storage.local.get("rtlEnabled", function(result) {
-  if (!result || !result.rtlEnabled) {
+  if (result.rtlEnabled === undefined) {
     browser.storage.local.set({ "rtlEnabled": true });
     browser.browserAction.setIcon({ path: "icons/icon2.png" });
   } else {
@@ -12,7 +12,7 @@ browser.storage.local.get("rtlEnabled", function(result) {
 });
 
 browser.storage.local.get("fontEnabled", function(result) {
-  if (!result || !result.fontEnabled) {
+  if (result.fontEnabled === undefined) {
     browser.storage.local.set({ "fontEnabled": true });
   }
 });
@@ -73,6 +73,7 @@ let lastText = "";
 let cachedParagraphs = [];
 let cachedTextareas = [];
 let cachedLists = [];
+
 browser.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.action === "toggleFont") {
     if (request.enabled && !fontApplied) {
@@ -105,7 +106,7 @@ function applyFont() {
       font-weight: normal;
       font-style: normal;
     }
-    * { font-family: Estedad, sans-serif !important; };
+    * { font-family: Estedad, sans-serif !important; }
   `;
   document.head.appendChild(style);
 }
@@ -140,15 +141,13 @@ function applyRTL() {
 
   for (let i = 0; i < lists.length; i++) {
     const innerParagraphs = lists[i].getElementsByTagName("p");
-    if (innerParagraphs.length > 0) {
-      for (let j = 0; j < innerParagraphs.length; j++) {
-        const text = innerParagraphs[j].textContent;
-        const lang = detectLanguage(text);
-        if (lang === "ar" || lang === "fa" || lang === "ur") {
-          innerParagraphs[j].style.direction = "rtl";
-        } else {
-          innerParagraphs[j].style.direction = "ltr";
-        }
+    for (let j = 0; j < innerParagraphs.length; j++) {
+      const text = innerParagraphs[j].textContent;
+      const lang = detectLanguage(text);
+      if (lang === "ar" || lang === "fa" || lang === "ur") {
+        innerParagraphs[j].style.direction = "rtl";
+      } else {
+        innerParagraphs[j].style.direction = "ltr";
       }
     }
   }
@@ -162,17 +161,13 @@ function removeRTL() {
   for (let i = 0; i < cachedParagraphs.length; i++) {
     cachedParagraphs[i].style.direction = "initial";
   }
-
   for (let i = 0; i < cachedTextareas.length; i++) {
     cachedTextareas[i].style.direction = "initial";
   }
-
   for (let i = 0; i < cachedLists.length; i++) {
     const innerParagraphs = cachedLists[i].getElementsByTagName("p");
-    if (innerParagraphs.length > 0) {
-      for (let j = 0; j < innerParagraphs.length; j++) {
-        innerParagraphs[j].style.direction = "initial";
-      }
+    for (let j = 0; j < innerParagraphs.length; j++) {
+      innerParagraphs[j].style.direction = "initial";
     }
   }
 }
@@ -189,8 +184,7 @@ function detectLanguage(text) {
       return lang;
     }
   }
-
-  return "en"; // default to English
+  return "en";
 }
 
 setInterval(function() {
@@ -202,4 +196,5 @@ setInterval(function() {
     }
   }
 }, 150);
+
 // Created By TheNima
