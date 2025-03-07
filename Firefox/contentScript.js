@@ -73,7 +73,7 @@ function applyRTL() {
   }
 
   for (let i = 0; i < textareas.length; i++) {
-    textareas[i].style.direction = "ltr"; 
+    textareas[i].style.direction = "ltr";
     textareas[i].style.textAlign = "left";
   }
 
@@ -135,7 +135,7 @@ function detectLanguage(text) {
   }
 
   if (/^[a-zA-Z]+$/.test(text)) {
-    return "en"; // English
+    return "en";
   }
 
   return "en";
@@ -150,4 +150,5 @@ setInterval(function() {
     }
   }
 }, 150);
+
 // Created By TheNima
