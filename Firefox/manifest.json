@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "RTL Chatbot Companion - Persian, Arabic",
-  "version": "1.0.2",
-  "description": "RTL Chatbot Companion is a browser extension for Persian, Arabic, and other right-to-left languages. It toggles text direction and applies a custom font for readability, compatible with DeepSeek, QwenLM, POE, Duck AI, and ChatGPT.",
+  "version": "1.0.9",
+  "description": "RTL Chatbot Companion is a browser extension for Persian, Arabic, and other right-to-left languages. It toggles text direction and applies a custom font for readability, compatible with DeepSeek, Qwen, POE, Mistral AI, Duck AI, ChatGPT, Copilot and Grok.",
   "content_security_policy": "script-src 'self'; style-src 'self';",
   "permissions": [
     "storage",
@@ -15,8 +15,10 @@
         "*://*.chat.deepseek.com/*",
         "*://*.poe.com/*",
         "*://*.duckduckgo.com/*",
-        "*://*.chatbot.theb.ai/*",
-        "*://*.chat.qwenlm.ai/*",
+        "*://*.qwen.ai/*",
+        "*://*.grok.com/*",
+        "*://*.copilot.microsoft.com/*",
+        "*://*.mistral.ai/*",
         "*://*.openai.com/*",
         "*://*.chatgpt.com/*"
       ],
