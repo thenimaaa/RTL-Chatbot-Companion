@@ -26,7 +26,7 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 3. Click on the menu button (three horizontal lines) in the top right corner.
 4. Select "Add-ons and themes."
 5. Click on the gear icon (⚙️) and choose "Install Add-on From File."
-6. Navigate to RTL.Chatbot.Companion_1.0.2.firefox.signed.xpi file and select it to install.
+6. Navigate to RTL.Chatbot.Companion_1.0.9.firefox.signed.xpi file and select it to install.
 
 # Install the Extension in Chrome/Edge Manually:
 
