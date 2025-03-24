@@ -1,5 +1,5 @@
 # RTL Chatbot Companion
-A browser extension designed to enhance chatbot interactions in Persian, Arabic, and other right-to-left (RTL) languages. This extension allows users to toggle text direction and applies a custom font for improved readability. This extension is compatible with DeepSeek, QwenLM, POE, Duck AI, TheB AI, and ChatGPT.
+A browser extension designed to enhance chatbot interactions in Persian, Arabic, and other right-to-left (RTL) languages. This extension allows users to toggle text direction and applies a custom font for improved readability. This extension is compatible with DeepSeek, Qwen, POE, Mistral AI, Duck AI, ChatGPT, Copilot and Grok.
 
 Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Estedad), an open-source font utilized in this project.
 
