@@ -14,7 +14,7 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 
 # Installing from Firefox Add-ons:
 
-1. Open Firefox:
+1. Open Firefox.
 2. Visit the following link: [RTL Chatbot Companion](https://addons.mozilla.org/en-US/firefox/addon/rtl-chatbot-companion/).
 3. Click the "Add to Firefox" button.
 4. Confirm the installation by clicking "Add" in the pop-up dialog.
