@@ -32,7 +32,6 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 
 
 1. Download [RTL.Chatbot.Companion_1.0.Chromium.unsigned.zip](https://github.com/thenimaaa/RTL-Chatbot-Companion/releases/download/v1.0/RTL.Chatbot.Companion_1.0.Chromium.unsigned.zip) file to your local machine.
-1. Download RTL.Chatbot.Companion_1.0.Chromium.unsigned.zip to your local machine. 
 2. Open Chrome/Edge.
 3. In the address bar, type `chrome://extensions` and press Enter.
 4. Enable "Developer mode" by toggling the switch in the top right corner (left side in Edge).
