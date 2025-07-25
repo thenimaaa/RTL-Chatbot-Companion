@@ -1,9 +1,9 @@
 # RTL Chatbot Companion
-A browser extension designed to enhance chatbot interactions in Persian, Arabic, and other right-to-left (RTL) languages. This extension allows users to toggle text direction and applies a custom font for improved readability. This extension is compatible with DeepSeek, Qwen, POE, Mistral AI, Duck AI, ChatGPT, Copilot and Grok.
+A browser extension designed to enhance chatbot interactions in Persian, Arabic, and other right-to-left (RTL) languages. This extension allows users to toggle text direction and applies a custom font for improved readability. This extension is compatible with DeepSeek, Qwen, POE, Mistral AI, Duck AI, ChatGPT, Copilot, Lumo and Grok.
 
 Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Estedad), an open-source font utilized in this project.
 
-![Image](https://github.com/user-attachments/assets/2db1d329-850b-4f53-8639-de3f37bc7022)
+![Image](https://github.com/user-attachments/assets/f7c823c4-1038-473c-887f-26f9e6ad751d)
 
 
 <div align="center">
@@ -21,12 +21,12 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 
 # Install the Add-on in Firefox Manually:
 
-1. Download [rtl_chatbot_companion-1.1.1.firefox.signed.xpi](https://github.com/thenimaaa/RTL-Chatbot-Companion/releases/download/1.1.1/rtl_chatbot_companion-1.1.1.firefox.signed.xpi) file to your local machine.
+1. Download [rtl_chatbot_companion-1.1.2.firefox.signed.xpi](https://github.com/thenimaaa/RTL-Chatbot-Companion/releases/download/1.1.2/rtl_chatbot_companion-1.1.2.firefox.signed.xpi) file to your local machine.
 2. Open Firefox.
 3. Click on the menu button (three horizontal lines) in the top right corner.
 4. Select "Add-ons and themes."
 5. Click on the gear icon (⚙️) and choose "Install Add-on From File."
-6. Navigate to RTL.Chatbot.Companion_1.0.9.firefox.signed.xpi file and select it to install.
+6. Navigate to rtl_chatbot_companion-1.1.2.firefox.signed.xpi file and select it to install.
 
 # Install the Extension in Chrome/Edge Manually:
 
