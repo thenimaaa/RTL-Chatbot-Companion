@@ -21,12 +21,12 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 
 # Install the Add-on in Firefox Manually:
 
-1. Download [rtl_chatbot_companion-1.1.5.firefox.signed.xpi](https://github.com/thenimaaa/RTL-Chatbot-Companion/releases/download/1.1.5/rtl_chatbot_companion-1.1.5.firefox.signed.xpi) file to your local machine.
+1. Download [rtl_chatbot_companion-1.1.6.firefox.signed.xpi](https://github.com/thenimaaa/RTL-Chatbot-Companion/releases/download/1.1.6/rtl_chatbot_companion-1.1.5.firefox.signed.xpi) file to your local machine.
 2. Open Firefox.
 3. Click on the menu button (three horizontal lines) in the top right corner.
 4. Select "Add-ons and themes."
 5. Click on the gear icon (⚙️) and choose "Install Add-on From File."
-6. Navigate to rtl_chatbot_companion-1.1.5.firefox.signed.xpi file and select it to install.
+6. Navigate to rtl_chatbot_companion-1.1.6.firefox.signed.xpi file and select it to install.
 
 # Install the Extension in Chrome/Edge Manually:
 
