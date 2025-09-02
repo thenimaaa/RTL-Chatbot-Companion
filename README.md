@@ -38,4 +38,7 @@ Gratitude to the creators of [Estedad Font](https://github.com/aminabedi68/Ested
 5. Drag and drop the downloaded RTL.Chatbot.Companion_1.0.Chromium.unsigned.zip file into the Extensions page to install it.
 6. Confirm any prompts that appear to complete the installation.
 
+# Release notes for V1.1.7
+1. Duck.ai support is now precisely targeted, no longer breaking DuckDuckGo search.
+2. Smart numeral conversion to Persian/Arabic, which intelligently preserves English numbers in technical text like GPT-5.
 
